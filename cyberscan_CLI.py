@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-CYBERSCAN PRO+ - Scanner de sécurité réseau local
+CYBERSCAN PRO+ - Scanner de sécurité réseau
 Projet final de cybersécurité
 """
 
