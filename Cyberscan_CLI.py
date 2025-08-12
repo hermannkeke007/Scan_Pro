@@ -380,7 +380,7 @@ class CyberScanPro:
     def is_valid_domain(self, domain):
         """Vérifie si le domaine est valide"""
         domain_pattern = re.compile(
-            r'^(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.)*[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?$'
+            r'^(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.)*[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?$' 
         )
         return bool(domain_pattern.match(domain)) and len(domain) <= 253
 
